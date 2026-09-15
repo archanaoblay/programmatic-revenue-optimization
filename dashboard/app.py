@@ -17,8 +17,7 @@ st.set_page_config(
 # LOAD DATA
 # --------------------------------------------------
 
-df = pd.read_csv("data/ad_delivery_data.csv")
-
+df = pd.read_csv("ad_delivery_data.csv")
 df["date"] = pd.to_datetime(df["date"])
 
 
