@@ -215,13 +215,18 @@ Use historical performance to estimate short-term revenue trends and identify po
 ```text
 programmatic-revenue-optimization/
 │
-├── data/
-│   └── ad_delivery_data.csv
+├── dashboard
+│   └── app.py
 │
 ├── src/
-│   ├── data_pipeline.py
-│   ├── kpi_engine.py
 │   ├── anomaly_detection.py
 │   ├── demand_analysis.py
-│   ├── r
+│   ├── generate_data.py
+│   ├── generate_data.py
+│   ├── kpi_engine.py
+│   ├── revenue_leakage.py
+│   ├── revenue_optimizer.py
+├── README.md
+├──ad_delivery_data.csv
+├──requirements.txt
 ```
